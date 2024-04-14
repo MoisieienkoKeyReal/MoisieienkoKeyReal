@@ -1,0 +1,81 @@
+banana * false
+const greet = name => `Hello, ${name}!`;
+true + kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const greet = name => `Hello, ${name}!`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true + 5,2
+const getRandomSubset = (array, size) => array.slice(0, size);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+orange * 87
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+true + 93,44,74,35,19,71,39,59,42,63,86,29
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findSmallestNumber = numbers => Math.min(...numbers);
+true - 33
+function addNumbers(a, b) { return a + b; }
+
+61 / 79,61,86,41,96,82,0,38,72,30,77,45,53,48,30,76,50,31,57,12,51,78,15,76,86,17,45,42,50,89,40,17,35,86,73,18,51,26,81,59,88,16,64,18,72,21,37,56,36,15,2,40,24,71,74,5,1,87,17,1,5,23,75,68,91,70,53,48,34,71,36,93,85,27,91,41,13,63
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+function addNumbers(a, b) { return a + b; }
+class MyClass { constructor() { this.property = getRandomString(); } }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+orange
+
+const squareRoot = num => Math.sqrt(num);
+64 / orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true - 15
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+false * banana
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
